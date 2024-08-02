@@ -1,0 +1,52 @@
+body {
+color:rgb(7, 0, 14);
+background: rgb(165, 122, 156);
+font-family: "Playwrite BE VLG", cursive;
+
+}
+harder {   border-bottom: solid 1px rgb(9, 1, 1);
+    font-size: 50px;
+ }
+ .chamada {
+    background:rgb(227, 182, 217);
+    padding-bottom: 60px;
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+ 
+img {
+    height: 200px;
+
+}
+
+
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+
+}
+
+.categoria { 
+    padding-left: 20px;
+    padding-right: 20px;
+
+
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    heigth: 200px;
+
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid grey
+
+}
